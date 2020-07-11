@@ -15,7 +15,7 @@ namespace Lesson23
             float eur = 437f;
             Console.WriteLine($"Баланс:\nrub: {rub}\nusd: {usd}\neur: {eur}");
             string codeWord = "";
-            Console.WriteLine("\nЕсли, после операции вы хотите закончить работать с валютами, введите exit. Для продолжения работы, можете ввести любое другое слово.\n");
+            Console.WriteLine("\nЕсли после операции вы хотите закончить работать с валютами, введите exit. Для продолжения работы, можете ввести любое другое слово.\n");
             while (codeWord != "exit")
             {
                 Console.WriteLine("Введите валюту, которую хотите конвертировать.(пример: rub, usd, eur)");
